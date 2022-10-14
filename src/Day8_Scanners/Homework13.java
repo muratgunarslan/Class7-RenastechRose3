@@ -43,7 +43,7 @@ public class Homework13 {
             System.out.println("The result is : "+(num1/num2));
 
         } else
-        System.out.println("In valid operation!");
+        System.out.println("Invalid operation!");
 
     }
 }

@@ -33,6 +33,8 @@ public class Topic3_SwitchExample {
             default:
                 System.out.println("invalid day of the week");
 
+
+
         }
     }
 }

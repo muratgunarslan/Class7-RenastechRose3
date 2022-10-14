@@ -37,3 +37,4 @@ public class HomeworkEx01 {
             System.out.println("Invalid data entry!");
     }
 }
+
