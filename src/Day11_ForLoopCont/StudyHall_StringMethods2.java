@@ -25,9 +25,9 @@ public class StudyHall_StringMethods2 {
             name1 = "newName";
             System.out.println(name1);*/
 
-        String expectedName = "Songul";
+        /*String expectedName = "Songul";*/
 
 
         }
     }
-}
+
