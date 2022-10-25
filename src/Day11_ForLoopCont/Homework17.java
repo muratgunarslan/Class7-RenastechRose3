@@ -4,7 +4,7 @@ public class Homework17 {
     public static void main(String[] args) {
 
         /*
-        First create one string and copy paste below paragraf.
+        First create one string and copy paste below paragraph.
         And make modifications on the given paragraph listed below.
          Make sure to create multiple string with each sentence from given paragraph
          Make sure each sentence start with upper case letter.
@@ -12,7 +12,7 @@ public class Homework17 {
          Make sure the rest of the letters are lower case.
          Make sure to change the name, age and city information based on your information
          make sure to get rid of the empty spaces in front and end of the sentences.
-         after you make the modification check each sentense’s length
+         after you make the modification check each sentence’s length
          Print each sentence and make sure they are correctly modified.
          Print 1st, 4th and 5th indexed characters for each sentence
          At the end combine all the sentence to get proper paragraph with modified sentences
@@ -26,9 +26,9 @@ I have experience in EducatION, energy,finance and some manY Other AREAs.
 i HAve scrum master and Oracle java Programmer certificates.
 i love JaVA.
 I designed and DEVELoped many automation test cases using BDD FRamework.
-
-
          */
+
+
 
     }
 }
