@@ -15,8 +15,10 @@ public class Topic2_ForLoopExamples {
 
         System.out.println("Please enter the second number :");
         int number2 = scan.nextInt();
-        int cnt = 0;
-        int cnt1 = 0;
+
+
+        int cnt = 0; //counteven evenCount
+        int cnt1 = 0; //oddCount
         for ( int j = number1; j<number2; j++){
             if (j%2==0){
                 cnt++;
@@ -25,8 +27,14 @@ public class Topic2_ForLoopExamples {
                 cnt1++;
             }
         }
+        int total = 0;
+
+        for (int j = number1; j < number2; j++){
+            total = cnt+ cnt1;
+        }
         System.out.println("The total count of even numbers between "+number1+" and "+number2+" is :"+cnt);
         System.out.println("The total count of odd  numbers between "+number1+" and "+number2+" is :"+cnt1);
+        System.out.println("The count of numbers between "+number1+" and "+number2+" is:" +total);
 
 
     } // main

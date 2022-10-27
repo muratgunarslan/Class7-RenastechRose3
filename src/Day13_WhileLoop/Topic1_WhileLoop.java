@@ -24,7 +24,7 @@ public class Topic1_WhileLoop {
                 count++;
             }
             num1++; // if we do not increase the num1 this loop infinite
-            System.out.println("the num1 value for each iteration : "+num1);
+            //System.out.println("the num1 value for each iteration : "+num1);
         }
 
         System.out.println("The count of number is ; "+count);

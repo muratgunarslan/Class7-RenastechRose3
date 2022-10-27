@@ -32,8 +32,9 @@ public class Topic2_WhileCont {
 
         int sum = 0;
         while (i<j){
-
-            sum+=1; // sum = 0+13 ==> sum = 13+14 == 27+15
+            if(i%5==0) {
+                sum += i; // sum = 0+13 ==> sum = 13+14 == 27+15
+            }
             i++;
 
         }

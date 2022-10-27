@@ -18,6 +18,7 @@ public class Topic2_Calculator {
 
         System.out.println("***Welcome to Calculator***");
         Scanner scan = new Scanner(System.in);
+        System.out.println(" 1 for Sum, 2 for Sub, 3 for Div, 4 Mult");
 
 
 
@@ -31,13 +32,17 @@ public class Topic2_Calculator {
             double num2 = scan.nextDouble();
 
             double result = 0;
+
             if (selection==1){
                 result=num1+num2;
-            } else if (selection==2) {
+            }
+            else if (selection==2) {
                 result=num1-num2;
-            } else if (selection==3) {
+            }
+            else if (selection==3) {
                 result=num1/num2;
-            }else {
+            }
+            else {
                 result=num1*num2;
             }
 

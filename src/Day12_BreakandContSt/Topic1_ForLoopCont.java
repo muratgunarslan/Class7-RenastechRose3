@@ -17,21 +17,24 @@ public class Topic1_ForLoopCont {
         System.out.println("Please enter second number");
         int num2 = scan.nextInt();
 
-        int start; // to hold the smaller number
-        int end; // to hold the higher number
+        int start = 0; // to hold the smaller number
+        int end = 0; // to hold the higher number
 
         if (num1>num2){
             start = num2;
             end = num1;
-        }else {
+        }
+        else if(num1==num2){
+            System.out.println("Invalid entry");
+        }
+        else{
             start = num1;
-            end = num2;
-
+            end = num2;       
         }
         int sum = 0;
-
+        
         for (int i = start; i < end; i++) {
-            if (i%2==00){
+            if (i%2==0){
                 sum = sum+i; // this will add the even number to sum
             }
         }

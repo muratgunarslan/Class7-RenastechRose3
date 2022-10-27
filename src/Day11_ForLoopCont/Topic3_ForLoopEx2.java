@@ -5,11 +5,20 @@ public class Topic3_ForLoopEx2 {
 
         // write a code where you find the even numbers between 10 to 120 (not included)
 
-        int count = 0;
+        /*int count = 0;
         for (int i = 10; i<120; i+=2){
             count++; // count = count+1
         }
+        System.out.println("The count of even numbers ; "+count);*/
+
+        int count = 0;
+        for (int i = 117; i < 120 ; i++) {
+            if(i%2==0){
+                count++;
+            }
+        }
         System.out.println("The count of even numbers ; "+count);
+
 
 
     } // main

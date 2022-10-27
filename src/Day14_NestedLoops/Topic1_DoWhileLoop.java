@@ -30,9 +30,9 @@ public class Topic1_DoWhileLoop {
 
         int j = 0;
         do {
-            System.out.println("Ther first char of the spring is " +st.charAt(j));
+            System.out.println("The first char of the spring is " +st.charAt(j));
             j++;
-        }while (j<2);
+        }while (j<5);
     }
 
 }
